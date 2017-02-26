@@ -1,0 +1,57 @@
+p {margin: 0;}
+ul {list-style-type: none;margin: 0;}
+img {margin: 0;}
+.back-box {
+	margin: 20px 20px;
+	height: 600px;
+	padding: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+}
+/*团队LOGO*/
+.team-name {
+	position: relative;
+	float: left;
+	width: 158px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+img {
+	border: 1px solid #999;
+}
+.team-name p {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	font-weight: bold;
+}
+/*成员照片*/
+.team-member {
+	float: right;
+	width: 120px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+.team-member-logo {
+	text-align: center;
+	padding-top: 20px;
+}
+.team-member img {
+    display: inline;
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	margin: 0 auto 20px;
+
+}
+/*中间团队介绍*/
+.team-introduce {
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 10px;
+	line-height: 30px;
+	height: 400px;
+	border: 1px solid #999;
+	background-color: #fff;
+}
